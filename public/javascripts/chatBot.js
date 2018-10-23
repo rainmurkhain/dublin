@@ -55,7 +55,9 @@
                 return sendMessage(getMessageText(), 'left');
             }
         });
+
         sendMessage(chosen_message, 'right');
+
         /*
         setTimeout(function () {
             return sendMessage('Hi Sandy! How are you?');
@@ -65,16 +67,24 @@
 
         function sendResponse(text) {
 
-            if (text === "Peavalu") {
+            if (text === "headache") {
                 setTimeout(function () {
                     return sendMessage("Oh no, I'm sorry to hear that!", 'right');
                 }, 1000);
             }
-            else {
+
+            if (text === "stomach ache") {
                 setTimeout(function () {
-                    return sendMessage("Ouch, I'm not able to answer that yet 😅, can i help you with anything else?")
-                })
+                    return sendMessage("Okay, have You tried eating something", 'right');
+                }, 1000);
             }
+
+            /*else {
+                setTimeout(function () {
+                    return sendMessage("Ouch, I'm not able to answer that yet 😅, can i help you with anything else?", 'right');
+                }, 1000)
+            }
+            */
 
 
 
