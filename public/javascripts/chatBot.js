@@ -128,7 +128,7 @@
                     return sendMessage("Let go!", 'right');
                 }, 8000);
                 setTimeout(function () {
-                    return sendMessage("Lets’t repeat it once more!", 'right');
+                    return sendMessage("Let's repeat it once more!", 'right');
                 }, 11000);
                 setTimeout(function () {
                     return sendMessage("Breath in as deep you can. Hold your breath!", 'right');
