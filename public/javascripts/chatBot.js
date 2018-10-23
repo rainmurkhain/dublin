@@ -65,9 +65,9 @@
 
         function sendResponse(text) {
 
-            if (text === "Pede") {
+            if (text === "Peavalu") {
                 setTimeout(function () {
-                    return sendMessage('Hi Sandy! How are you?', 'right');
+                    return sendMessage("Oh no, I'm sorry to hear that!", 'right');
                 }, 1000);
             }
         }
@@ -75,14 +75,3 @@
 
 
 }.call(this));
-
-function sendResponse(text) {
-
-    if (text === "Pede") {
-        setTimeout(function () {
-            return sendMessage('Hi Sandy! How are you?');
-        }, 1000);
-    }
-
-
-}
