@@ -129,31 +129,31 @@
                 }, 8000);
                 setTimeout(function () {
                     return sendMessage("Lets’t repeat it once more!", 'right');
-                }, 9000);
-                setTimeout(function () {
-                    return sendMessage("Breath in as deep you can. Hold your breath!", 'right');
-                }, 10000);
-                setTimeout(function () {
-                    return sendMessage("5", 'right');
                 }, 11000);
                 setTimeout(function () {
-                    return sendMessage("4", 'right');
-                }, 12000);
-                setTimeout(function () {
-                    return sendMessage("3", 'right');
+                    return sendMessage("Breath in as deep you can. Hold your breath!", 'right');
                 }, 13000);
                 setTimeout(function () {
-                    return sendMessage("2", 'right');
-                }, 14000);
-                setTimeout(function () {
-                    return sendMessage("1", 'right');
-                }, 15000);
-                setTimeout(function () {
-                    return sendMessage("Let go!", 'right');
+                    return sendMessage("5", 'right');
                 }, 16000);
                 setTimeout(function () {
-                    return sendMessage("How do you feel?", 'right');
+                    return sendMessage("4", 'right');
                 }, 17000);
+                setTimeout(function () {
+                    return sendMessage("3", 'right');
+                }, 18000);
+                setTimeout(function () {
+                    return sendMessage("2", 'right');
+                }, 19000);
+                setTimeout(function () {
+                    return sendMessage("1", 'right');
+                }, 20000);
+                setTimeout(function () {
+                    return sendMessage("Let go!", 'right');
+                }, 21000);
+                setTimeout(function () {
+                    return sendMessage("How do you feel?", 'right');
+                }, 24000);
 
             } else if (text === "A bit better!") {
                 setTimeout(function () {
