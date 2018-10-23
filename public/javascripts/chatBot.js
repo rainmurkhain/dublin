@@ -75,3 +75,7 @@
 
 
 }.call(this));
+
+function goToHome() {
+    window.location.replace("http://cognisave.eu");
+}

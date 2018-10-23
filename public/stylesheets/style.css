@@ -6,6 +6,13 @@
     height: 100%;
     background-color: grey;
 }
+
+#homeButton {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
 * {
     box-sizing: border-box;
 }
