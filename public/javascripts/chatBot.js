@@ -109,6 +109,10 @@
                 setTimeout(function () {
                     return sendMessage("Hello!", "right");
                 }, 1000);
+            } else if (text.includes("depressed") || text.includes("depression")) {
+                setTimeout(function () {
+                    return sendMessage("That is really awful! But I'm here to talk with you, whenever you need me!", "right");
+                }, 1000);
             } else {
                 setTimeout(function () {
                     return sendMessage("Sorry, some sentences are hard to understand for me! I'm just learning!", "right");
