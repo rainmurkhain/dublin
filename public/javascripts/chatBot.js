@@ -126,5 +126,5 @@
 }.call(this));
 
 function goToHome() {
-    window.location.replace("http://cognisave.eu");
+    window.location.replace("resdec.voog.com");
 }
