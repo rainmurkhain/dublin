@@ -93,7 +93,7 @@
                 setTimeout(function () {
                     return sendMessage("Hmm...Maybe you're dehydrated. I would advise to mix a bit of salt and sugar to lemon water. It usually helps me!", "right");
                 }, 1000);
-            } else if (text.includes("ache")) {
+            } else if (text.includes("ache") || text.includes("pain") || text.includes("hurts")) {
                 setTimeout(function () {
                     return sendMessage("Well, then I would advise to consult your doctor. Maybe you should take a day off?", "right");
                 }, 1000);
@@ -104,6 +104,10 @@
             } else if (text.includes("kill myself") || text.includes("hurt myself")) {
                 setTimeout(function () {
                     return sendMessage("That is awful! I hope that you've consulted a professional!", "right");
+                }, 1000);
+            } else if (text.includes("hi") || text.includes("hey")) {
+                setTimeout(function () {
+                    return sendMessage("Hello!", "right");
                 }, 1000);
             } else {
                 setTimeout(function () {
