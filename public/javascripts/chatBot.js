@@ -89,7 +89,7 @@
                 setTimeout(function () {
                     return sendMessage("Well, that's not good at all? What's wrong?", "right");
                 }, 1000);
-            } else if (text.includes("headache") || text.includes("Headache") || text.includes("head ache")) {
+            } else if (text.includes("headache") || text.includes("Headache") || text.includes("head ache") || text.includes("migraine") || text.includes("Migraine")) {
                 setTimeout(function () {
                     return sendMessage("Hmm...Maybe you're dehydrated. I would advise to mix a bit of salt and sugar to lemon water. It usually helps me!", "right");
                 }, 1000);
