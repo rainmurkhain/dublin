@@ -126,5 +126,5 @@
 }.call(this));
 
 function goToHome() {
-    window.location.replace("resdec.voog.com");
+    window.location.replace("http://resdec.voog.com");
 }
