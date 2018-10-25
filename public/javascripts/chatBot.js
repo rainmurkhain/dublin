@@ -105,7 +105,7 @@
                 setTimeout(function () {
                     return sendMessage("That is awful! I hope that you've consulted a professional!", "right");
                 }, 1000);
-            } else if (text.includes("hi") || text.includes("hey")) {
+            } else if (text.includes("hi") || text.includes("hey") || text.includes("Hi")) {
                 setTimeout(function () {
                     return sendMessage("Hello!", "right");
                 }, 1000);
